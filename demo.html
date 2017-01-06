@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5 responsive video modal popup by Netteria.NET</title>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/videopopup.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/videopopup.css" media="screen" />
+</head>
+<body>
+<br /><br />
+<h1>HTML5 responsive video modal popup by Netteria.NET</h1>
+<p>V 1.0</p>
+<a href="javascript:void(0)" id="video1">-- open video --</a>
+<br />
+<p>more on:<a href="https://netteria.net/html5-video-popup-jquery/105/">https://netteria.net/html5-video-popup-jquery/105/</a></p>
+<p>&copy; Netteria.NET 2017</p>
+<div id="vidBox">
+        <div id="videCont">
+		<video autoplay id="v1" loop controls="controls">
+            <source src="video/VideoPopUpHTML5.webm" type="video/webm">
+            <source src="video/VideoPopUpHTML5.mp4" type="video/mp4">
+        </video>
+         </div>
+        </div>
+            <script type="text/javascript">
+            $(function () {
+               $('#vidBox').VideoPopUp({
+                	backgroundColor: "#17212a",
+                	opener: "video1",
+                    maxweight: "640",
+                    idvideo: "v1"
+                });
+            });
+    </script>
+</body>
+</html>
