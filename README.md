@@ -8,6 +8,6 @@ More on and DEMO [HTML5 responsive popup video](https://netteria.net/html5-video
 Create by [Netteria.NET](https://netteria.net) 2017.
 
 <h1>Donate</h1>
-<hr />
+<br />
 If this script was useful, you can buy me coffee;) <a href="https://paypal.me/forcoffee897?locale.x=pl_PL">Donate via Paypal</a>
 <h2>Thanks!</h2>
