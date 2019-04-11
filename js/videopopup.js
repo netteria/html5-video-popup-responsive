@@ -19,8 +19,11 @@
 
         var video = document.getElementById(settings.idvideo);
         function stopVideo() {
-            video.pause();
-            video.currentTime = 0;
+            var tag = $('#' + patter + '').get(0).tagName;
+            if (tag == 'video') {
+                video.pause();
+                video.currentTime = 0;
+            }
         }
         
         $('#' + patter + '').css("display", "none");
