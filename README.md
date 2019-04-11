@@ -1,4 +1,4 @@
-# html5 video popup responsive and youtube video modal
+# Html5 video popup responsive and youtube video modal (jQuery and css)
 A simple script jquery embedding a video clip in a modal window. Video is responsive.
 
 <br />
