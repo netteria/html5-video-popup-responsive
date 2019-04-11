@@ -11,3 +11,5 @@ Create by [Netteria.NET](https://netteria.net) 2017.
 <br />
 If this script was useful, you can buy me coffee;) <a href="https://paypal.me/forcoffee897?locale.x=pl_PL">Donate via Paypal</a>
 <h2>Thanks!</h2>
+
+Youtube video: https://codepen.io/netteria/pen/dLWxJJ
